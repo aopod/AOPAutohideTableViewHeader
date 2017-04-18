@@ -1,0 +1,24 @@
+PODS:
+  - AOPAutohideTableViewHeader (0.1.0):
+    - AOPAutohideTableViewHeader/Core (= 0.1.0)
+    - AOPAutohideTableViewHeader/UITableView (= 0.1.0)
+    - AOPAutohideTableViewHeader/UIView (= 0.1.0)
+  - AOPAutohideTableViewHeader/Core (0.1.0)
+  - AOPAutohideTableViewHeader/UITableView (0.1.0):
+    - AOPAutohideTableViewHeader/Core
+  - AOPAutohideTableViewHeader/UIView (0.1.0):
+    - AOPAutohideTableViewHeader/Core
+
+DEPENDENCIES:
+  - AOPAutohideTableViewHeader (from `../`)
+
+EXTERNAL SOURCES:
+  AOPAutohideTableViewHeader:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AOPAutohideTableViewHeader: 890c84fcb4fa25eff6773099066e4ecc44b6be10
+
+PODFILE CHECKSUM: c7f3764d383e10a246cad54af568a7e0ad7731c2
+
+COCOAPODS: 1.1.1

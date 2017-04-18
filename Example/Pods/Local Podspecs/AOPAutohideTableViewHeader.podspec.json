@@ -1,0 +1,46 @@
+{
+  "name": "AOPAutohideTableViewHeader",
+  "version": "0.1.0",
+  "summary": "Autohide header of UITableView",
+  "description": "Autohide header of UITableView which is inspired by UISearchBar's behaviour.",
+  "homepage": "https://github.com/aopod/AOPAutohideTableViewHeader",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "aopod": "aopodcom@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/aopod/AOPAutohideTableViewHeader.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "frameworks": "UIKit",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "AOPAutohideTableViewHeader/Classes/Core/**/*.{h,m}"
+    },
+    {
+      "name": "UIView",
+      "source_files": "AOPAutohideTableViewHeader/Classes/UIView/**/*.{h,m}",
+      "dependencies": {
+        "AOPAutohideTableViewHeader/Core": [
+
+        ]
+      }
+    },
+    {
+      "name": "UITableView",
+      "source_files": "AOPAutohideTableViewHeader/Classes/UITableView/**/*.{h,m}",
+      "dependencies": {
+        "AOPAutohideTableViewHeader/Core": [
+
+        ]
+      }
+    }
+  ]
+}

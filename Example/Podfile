@@ -1,0 +1,13 @@
+use_frameworks!
+
+target 'AOPAutohideTableViewHeader_Example' do
+  pod 'AOPAutohideTableViewHeader', :path => '../'
+  # pod 'AOPAutohideTableViewHeader/UIView', :path => '../'
+  # pod 'AOPAutohideTableViewHeader/UITableView', :path => '../'
+
+  target 'AOPAutohideTableViewHeader_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

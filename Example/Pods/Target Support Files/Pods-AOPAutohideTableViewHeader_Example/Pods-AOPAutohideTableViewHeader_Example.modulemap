@@ -1,0 +1,6 @@
+framework module Pods_AOPAutohideTableViewHeader_Example {
+  umbrella header "Pods-AOPAutohideTableViewHeader_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

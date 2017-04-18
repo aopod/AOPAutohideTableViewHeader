@@ -1,0 +1,6 @@
+framework module AOPAutohideTableViewHeader {
+  umbrella header "AOPAutohideTableViewHeader-umbrella.h"
+
+  export *
+  module * { export * }
+}

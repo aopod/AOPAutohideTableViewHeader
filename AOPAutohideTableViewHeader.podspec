@@ -1,10 +1,3 @@
-#
-# Be sure to run `pod lib lint AOPAutohideTableViewHeader.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = 'AOPAutohideTableViewHeader'
@@ -18,11 +11,12 @@ Why Cocoapods? I just wanna take a shot :)
                        DESC
 
   s.homepage         = 'https://github.com/aopod/AOPAutohideTableViewHeader'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots      = 'http://www.aopod.com/assets/post/2017/04-18-autohide-tableHeaderView.gif'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'aopod' => 'aopodcom@gmail.com' }
   s.source           = { :git => 'https://github.com/aopod/AOPAutohideTableViewHeader.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.documentation_url = 'http://www.aopod.com/2017/04/18/autohide-tableheaderview/'
+  s.social_media_url = 'http://www.aopod.com'
 
   s.ios.deployment_target = '8.0'
 

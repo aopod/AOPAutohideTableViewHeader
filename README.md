@@ -6,6 +6,10 @@ This project is inspired by UISearch which provides perfect autohide header expe
 
 AOPAutohideTableViewHeader takes advantage of the feature provided by UITableView itself. Provide a common way to implement a autohide header.
 
+## Blog Article
+
+> [http://www.aopod.com/2017/04/18/autohide-tableheaderview/](http://www.aopod.com/2017/04/18/autohide-tableheaderview/)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.

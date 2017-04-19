@@ -10,6 +10,10 @@ AOPAutohideTableViewHeader takes advantage of the feature provided by UITableVie
 
 > [http://www.aopod.com/2017/04/18/autohide-tableheaderview/](http://www.aopod.com/2017/04/18/autohide-tableheaderview/)
 
+## Preview
+
+![AOPAutohideTableViewHeader](http://www.aopod.com/assets/post/2017/04-18-autohide-tableHeaderView.gif)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
